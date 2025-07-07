@@ -8,12 +8,16 @@ Designed for smart home applications, this project is a practical example of how
 
 **Features**
 
-Connects to a Wi-Fi network and maintains the connection.
-Controls an LED (or any load) via:
+1.Connects to a Wi-Fi network and maintains the connection.
+
+2.Controls an LED (or any load) via:
 SinricPro app/voice assistant (Alexa, Google Home, etc.)
-Physical tactile switch
-Sends state updates back to SinricPro when toggled manually.
-Displays Wi-Fi status via a dedicated LED.
+
+3.Physical tactile switch
+
+4.Sends state updates back to SinricPro when toggled manually.
+
+5.Displays Wi-Fi status via a dedicated LED.
 
 **Hardware Connections**
 
@@ -26,14 +30,17 @@ Displays Wi-Fi status via a dedicated LED.
 
 **Libraries Used**
 
-ESP8266WiFi.h → manages Wi-Fi connection
-SinricPro.h, SinricProSwitch.h → connects to SinricPro platform
-Arduino.h → core Arduino functions
-map → stores dynamic mappings between device IDs and hardware pins
+1.ESP8266WiFi.h → manages Wi-Fi connection
+
+2.SinricPro.h, SinricProSwitch.h → connects to SinricPro platform
+
+3.Arduino.h → core Arduino functions
+
+4.map → stores dynamic mappings between device IDs and hardware pins
 
 **Practical Applications**
 
-Smart home lighting
-Remote appliance control
-Voice-activated devices with Alexa/Google Home
-IoT learning projects
+Smart home lighting ,
+Remote appliance control ,
+Voice-activated devices with Alexa/Google Home ,
+IoT learning projects .
